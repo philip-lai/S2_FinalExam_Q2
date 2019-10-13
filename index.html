@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RGB slider</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="rgb-range-slider">
+    <label for="r">R</label>
+    <input id="r" type="range" value="0" min="0" max="255" step="1">
+    <output for="r" id="r_value">0</output>
+  </div>
+
+  <div class="rgb-range-slider">
+    <label for="g">G</label>
+    <input id="g" type="range" value="0" min="0" max="255" step="1">
+    <output for="g" id="g_value">0</output>
+  </div>
+
+  <div class="rgb-range-slider">
+    <label for="b">B</label>
+    <input id="b" type="range" value="0" min="0" max="255" step="1">
+    <output for="b" id="b_value">0</output>
+  </div>
+
+  <output id="hex">#000000</output>
+  <script src="index.js"></script>
+</body>
+
+
+</html>
